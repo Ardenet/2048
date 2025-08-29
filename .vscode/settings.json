@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        ".bash_history": "bat",
+        "windows.h": "c",
+        "stdlib.h": "c",
+        "conio.h": "c"
+    }
+}

@@ -1,0 +1,28 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: cl.exe 生成活动文件",
+			"command": "cl.exe",
+			"args": [
+				// "/utf-8",
+				// "/Zi",
+				"/O2",
+				"/EHsc",
+				"/nologo",
+				"/Fe${fileDirname}\\build\\${fileBasenameNoExtension}.exe",
+				"${file}",
+				"C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.22621.0\\um\\x86\\User32.Lib",
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build",
+			"detail": "编译器: cl.exe"
+		}
+	]
+}
